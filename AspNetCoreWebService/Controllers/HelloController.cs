@@ -12,7 +12,7 @@ namespace AspNetCoreWebService.Controllers
         private const string MESSAGE_FORMAT = "Hello {0}!";
 
         [HttpGet]
-        public JsonResult Get([FromQuery] string name = "World")
+        public JsonResult Get([FromQuery] string name = "Abdulkerim")
         {
             return Json(new Response
             {
